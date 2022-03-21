@@ -14,6 +14,6 @@ Once the data is split in the testing and the splitting dataset, I start with th
 ## Visualizations
  I also tried to show some visualizations using matplotlib. The visualization basically shows a set of 8 images that is read by the interator to the data loader.
 
-![Visualization](/assets/vizualization.jpg)
+![Visualization](./assets/vizualization.jpg)
 
 I define functions that help me feed the data to the ML model. The notebook then defines the convolutional neural network with two additional linear added on top of it to revice the output and adjust the wieghts. After training the model gives an accuracy of 45% on the testing dataset. 
